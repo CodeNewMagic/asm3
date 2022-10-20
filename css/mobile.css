@@ -1,0 +1,119 @@
+@media only screen and (max-width: 767px) {
+  #banner {
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .title_name {
+    font-size: 25px;
+  }
+  .job {
+    font-size: 15px;
+  }
+  #nav-bar {
+    border: none;
+  }
+  .link {
+    border: none;
+    text-align: left;
+    padding: 15px 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  #about {
+    padding: 0px 15px;
+  }
+  .about_update {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #target {
+    padding: 40px 20px;
+  }
+  #personal-info {
+    padding: 40px 20px;
+  }
+
+  #job-info {
+    margin-top: 40px;
+  }
+  .job_info_update {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .job_info_items {
+    padding: 20px;
+  }
+
+  #certificate {
+    margin-top: 40px;
+  }
+  .certificate_title {
+    padding: 0px 10px;
+  }
+  .certificate_row1 {
+    display: block;
+    border: none;
+    padding: 0px;
+  }
+  .certificate_items {
+    display: block;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    padding: 0px 10px;
+    margin-top: 10px;
+  }
+
+  #project {
+    padding: 20px;
+  }
+  .project_update {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .date {
+    display: inline-block;
+    padding: 5px 20px;
+  }
+  .information {
+    display: block;
+  }
+  .information_items {
+    margin: 0;
+  }
+  .link_name {
+    display: none;
+  }
+
+  /* css trang Project Charter  */
+  .digital {
+    display: block;
+  }
+  .digital_item {
+    margin-bottom: 20px;
+  }
+  .digital_item:last-child {
+    margin-bottom: 0px;
+  }
+
+  .icon {
+    margin-top: 10px;
+  }
+
+  .timeline > .items {
+    border-bottom: 1px dotted #00f;
+  }
+  .timeline .items .content {
+    border-bottom: none;
+  }
+  .scops .items {
+    display: block;
+  }
+}

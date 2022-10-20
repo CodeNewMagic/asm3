@@ -1,0 +1,121 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #banner {
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .title_name {
+    font-size: 30px;
+  }
+  .job {
+    font-size: 18px;
+  }
+  .link:first-child {
+    border-left: 1px solid #e9ecef;
+  }
+  #nav-bar {
+    border-bottom: 1px solid #e9ecef;
+    text-align: center;
+  }
+  .link {
+    display: inline-block;
+    padding: 15px 15px;
+    width: 170px;
+    margin: 0px 0px;
+    font-size: 16px;
+    border-right: 1px solid #e9ecef;
+  }
+  .width_nbsp {
+    width: 70px;
+  }
+
+  #job-info {
+    margin-top: 40px;
+  }
+  .job_info_update {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .job_info_items {
+    padding: 20px;
+  }
+
+  .boder {
+    border-left: 2px solid #d6c08d;
+    padding-left: 10px;
+  }
+
+  #certificate {
+    margin-top: 40px;
+  }
+  .certificate_title {
+    padding: 0px 10px;
+  }
+  .certificate_row1 {
+  }
+  .certificate_items {
+    display: block;
+    padding: 20px;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    padding: 0px 10px;
+    margin-top: 10px;
+  }
+  .certificate_row2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .project_update {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .information {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 5;
+  }
+  .information_items {
+    padding: 0;
+  }
+  .item_developer {
+    grid-column: 2 / 3;
+  }
+  .date {
+    padding: 2px 10px;
+  }
+
+  .project_items table tr :first-child {
+    width: 57px;
+  }
+  .style_td {
+    height: 143px;
+  }
+  .style_td2 {
+    height: 92px;
+  }
+
+  /* css trang Project Charter  */
+  .digital {
+    display: block;
+  }
+  .digital_item {
+    margin-bottom: 20px;
+  }
+  .digital_item:last-child {
+    margin-bottom: 0px;
+  }
+  .timeline > .items {
+    border-bottom: 1px dotted #00f;
+  }
+  .timeline .items .content {
+    border-bottom: none;
+  }
+}

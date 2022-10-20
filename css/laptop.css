@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1200px) {
+  #banner {
+    height: 73vh;
+  }
+  .link:first-child {
+    border-left: 1px solid #e9ecef;
+  }
+  .width_nbsp {
+    width: 20%;
+  }
+
+  .boder {
+    border-left: 2px solid #d6c08d;
+    padding-left: 10px;
+  }
+  .style_td2 {
+    height: 86px;
+  }
+
+  #target {
+    padding: 40px 20%;
+  }
+  #personal-info {
+    padding: 40px 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #banner {
+    height: 48vh;
+  }
+  .title_name {
+    font-size: 35px;
+  }
+  .job {
+    font-size: 22px;
+  }
+  .link:first-child {
+    border-left: 1px solid #e9ecef;
+  }
+  .link {
+    display: inline-block;
+    padding: 15px 15px;
+    width: 25%;
+    margin: 0px 0px;
+    font-size: 16px;
+  }
+
+  .boder {
+    border-left: 2px solid #d6c08d;
+    padding-left: 10px;
+  }
+
+  .information {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 5;
+  }
+  .information_items {
+    padding: 2px 0px;
+  }
+  .item_developer {
+    grid-column: 2 / 3;
+  }
+  .date {
+    padding: 4px 10px;
+  }
+  .style_td {
+    height: 114px;
+  }
+  .style_td2 {
+    height: 90px;
+  }
+}
